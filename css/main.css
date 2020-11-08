@@ -55,8 +55,6 @@ p {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-
-    outline: 2px solid tomato;
 }
 
 /* Header */
@@ -230,11 +228,6 @@ h1 {
     padding-bottom: 94px;
 }
 
-/* .quality-container {
-    padding-top: 94px;
-    padding-bottom: 94px;
-} */
-
 .item-quality {
     display: flex;
 }
@@ -312,10 +305,6 @@ h1 {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
-/* .container-team {
-    height: 648px;
-} */
 
 .title-team {
     color: var(--heading-h2-h6-color);
@@ -402,6 +391,84 @@ h1 {
     fill: var(--primary-icon-color);
     width: 20px;
     height: 20px;
+}
+
+/* Client */
+.client-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.client-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+
+    color: var(--heading-h2-h6-color);
+}
+
+.client-list {
+    display: flex;
+} 
+
+.client-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.client-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.client-icon {
+    fill: var(--primary-icon-color);
+}
+
+.client-link:hover,
+.client-link:focus {
+    border-color: var(--backlight-color);
+}
+
+.client-link:hover .client-icon,
+.client-link:focus .client-icon {
+    fill: var(--backlight-color);
+}
+
+.one {
+    width: 45px;
+    height: 50px;
+}
+
+.two {
+    width: 40px;
+    height: 52px;
+}
+
+.three {
+    width: 41px;
+    height: 43px;
+}
+
+.four {
+    width: 80px;
+    height: 42px;
+}
+
+.five {
+    width: 59px;
+    height: 47px;
+}
+
+.six {
+    width: 89px;
+    height: 46px;
 }
 
 /* Footer */
