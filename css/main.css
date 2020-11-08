@@ -9,6 +9,7 @@
     --heading-h2-h6-color: #212121; 
     --backlight-color: #2196F3;
     --secondary-text-color: #212121; 
+    --primary-icon-color: #AFB1B8;
 }
 
 body {
@@ -295,7 +296,7 @@ h1 {
 
 .worker-list {
     width: 270px;
-    height: 368px;
+    height: 428px;
     border-radius: 0px 0px 4px 4px;
 
     background-color: #FFFFFF;
@@ -328,6 +329,40 @@ h1 {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
+}
+
+.team-social-list {
+    display: inline-flex;
+    margin-top: 28px
+}
+
+.team-social-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.team-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+    background-color: var(--backlight-color);
+}
+
+.team-social-link:hover .team-social-icon,
+.team-social-link:focus .team-social-icon {
+    fill: #FFFFFF;
+}
+
+.team-social-icon {
+    fill: var(--primary-icon-color);
+    width: 20px;
+    height: 20px;
 }
 
 /* Footer */
