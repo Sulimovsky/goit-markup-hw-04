@@ -55,6 +55,8 @@ p {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+
+    outline: 2px solid tomato;
 }
 
 /* Header */
@@ -149,10 +151,23 @@ p {
     color: var(--backlight-color);
 }
 
+.contacts-link:hover .icon-link,
+.contacts-link:focus .icon-link {
+    fill: var(--backlight-color);
+}
+
+
 .icon-link {
     width: 16px;
     height: 12px;
     margin-right: 10px;
+
+    fill: var(--primary-text-color);
+}
+
+.smartphone {
+    width: 10px;
+    height: 16px;
 }
 
 
@@ -210,26 +225,47 @@ h1 {
 }
 
 /* Quality */
+.quality-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+/* .quality-container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+} */
+
 .item-quality {
     display: flex;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 94px;
-    padding-left: 0;
-    padding-bottom: 94px;
-    
 }
 
 .item-quality .list {
     width: 270px;
-    height: 101px;
+    height: 251px;
 }
 
 .item-quality .list:not(:last-child) {
     margin-right: 30px;
 }
 
+.box-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120px;
+
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+
+.icon-antenna {
+    width: 70px;
+    height: 70px;
+}
+
 .item-quality h2 {
+    margin-top: 30px;
+
     color: var(--heading-h2-h6-color);
 
     font-weight: 700;
@@ -245,6 +281,10 @@ h1 {
 }
 
 /* Occupation */
+.occupation {
+    padding-bottom: 94px;
+}
+
 .occupation .occupation-header {
     margin-bottom: 50px;
 
@@ -260,7 +300,6 @@ h1 {
     display: flex;
     padding-left: 0;
     margin: 0;
-    padding-bottom: 94px;
 }
 
 .occupation-list .occupation-item:not(:last-child) {
@@ -270,15 +309,15 @@ h1 {
 /* Team */
 .team {
     background: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
-.container-team {
+/* .container-team {
     height: 648px;
-}
+} */
 
 .title-team {
-    padding-top: 94px;
-
     color: var(--heading-h2-h6-color);
 
     font-weight: 700;
