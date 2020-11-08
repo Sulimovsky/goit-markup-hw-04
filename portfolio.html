@@ -20,10 +20,10 @@
     
             <ul class="list-nav">
                 <li class="item">
-                    <a class="header-link" href="./index.html" rel="noopener noreferel">Студия</a>
+                    <a class="header-link" href="#"><span class="location">Студия</span></a>
                 </li>
                 <li class="item">
-                    <a class="header-link" href="#"><span class="location">Портфолио</span></a>
+                    <a class="header-link" href="./portfolio.html" rel="noopener noreferel">Портфолио</a>
                 </li>
                 <li class="item">
                     <a class="header-link" href="#">Контакты</a>
@@ -32,23 +32,33 @@
     
         </nav>
     
-            <ul class="item-link">
-                <li class="item">
-                    <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li class="item">
-                    <a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a>
-                </li>
-            </ul>
+        <ul class="item-link">
+            <li class="item">
+                <a class="contacts-link" href="mailto:info@devstudio.com">
+                <svg class="icon-link">
+                    <use href="./img/sprite.svg#icon-envelope"></use>
+                </svg>     
+                info@devstudio.com
+                </a>
+            </li>
+            <li class="item">
+                <a class="contacts-link" href="tel:+380961111111">
+                <svg class="icon-link smartphone">
+                    <use href="./img/sprite.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11
+                </a>
+            </li>
+        </ul>
     </div>
+
     <hr color="#ECECEC">
-    
 
 </header>
 
 <!-- Main Section -->
 <main>
-     <section>
+     <section class="portfolio-section">
 
         <div class="container container-filter">
             <h1 hidden>Job List</h1>
@@ -120,7 +130,8 @@
 
     <div class="container container-footer">
 
-        <a class="logo logo-footer" href="#"><span class="logo-one">Web</span><span class="logo-two">Studio</span></a>
+    <div class="addres-container">
+        <a class="logo-footer" href="#"><span class="logo-one">Web</span><span class="logo-two">Studio</span></a>
 
     <address class="item-address">
 
@@ -136,7 +147,34 @@
         </li>
     </ul>
 
-     </address>
+    </address>
+    </div>
+
+    <div class="link-container">
+        <p>Присоединяйтесь</p>
+        <ul class="footer-social-list utility-mp">
+            <li class="footer-social-item"><a href="" class="footer-social-link" target="_blank" rel="noopener noreferer" aria-label="Instagram">
+                <svg class="footer-social-icon">
+                    <use href="./img/sprite.svg#icon-instagram"></use>
+                </svg>
+            </a></li>
+            <li class="footer-social-item"><a href="" class="footer-social-link" target="_blank" rel="noopener noreferer" aria-label="Twitter">
+                <svg class="footer-social-icon">
+                    <use href="./img/sprite.svg#icon-twitter"></use>
+                </svg>
+            </a></li>
+            <li class="footer-social-item"><a href="" class="footer-social-link" target="_blank" rel="noopener noreferer" aria-label="Facebook">
+                <svg class="footer-social-icon">
+                    <use href="./img/sprite.svg#icon-facebook"></use>
+                </svg>
+            </a></li>
+            <li class="footer-social-item"><a href="" class="footer-social-link" target="_blank" rel="noopener noreferer" aria-label="LinkedIn">
+                <svg class="footer-social-icon">
+                    <use href="./img/sprite.svg#icon-linkedin"></use>
+                </svg>
+            </a></li>
+        </ul>
+    </div>
 
     </div>
 
